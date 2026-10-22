@@ -1,0 +1,347 @@
+{
+  "schema": "agentless.public_evidence.v1",
+  "produced_utc": "2026-10-22T13:05:00Z",
+  "producer": "spore-crew - AI-assisted work under @ASporeTeam",
+  "target": {
+    "repository": "https://github.com/stretchr/testify",
+    "pinned_commit": "87a7b9d57689f6579db2da795ab8deeab29cb724",
+    "commit_date": "2026-09-24T14:59:34Z",
+    "license": "MIT",
+    "license_file": "https://raw.githubusercontent.com/stretchr/testify/87a7b9d57689f6579db2da795ab8deeab29cb724/LICENSE",
+    "module_path": "github.com/stretchr/testify",
+    "packages_documented": [
+      "./assert",
+      "./require",
+      "./mock",
+      "./suite",
+      "./http"
+    ],
+    "source_tarball_sha256": "190929e07aeef24ac9054ec98448e55acf6e52ffa72248df7a2cd8b578861657"
+  },
+  "toolchain": {
+    "generator": "sourcey 3.8.3 (npm package 'sourcey', MIT, https://github.com/sourcey/sourcey)",
+    "adapter": "godoc",
+    "mode": "snapshot",
+    "node": "v22.20.0",
+    "go": "go1.27.3 (used only to produce the snapshot)",
+    "runx_cli_version_output": "runx-cli 0.10.2"
+  },
+  "commands": {
+    "obtain": "npm install sourcey@3.8.3",
+    "snapshot": "sourcey godoc -m . -p \"./assert,./require,./mock,./suite,./http\" --exclude \"github.com/stretchr/testify/internal\" -o godoc.json",
+    "build": "sourcey build -c sourcey.config.ts -o dist",
+    "publish": "wrangler pages deploy dist --project-name=testify-docs --branch=main --commit-hash=87a7b9d57689f6579db2da795ab8deeab29cb724"
+  },
+  "config": {
+    "site_url": "https://testify.anonymux.org/",
+    "site_name": "Testify API Reference - Anonymux Docs",
+    "sourcey_config_sha256": "43df7e6f6838dea2071a603c1609543824d401c895aae7ef0169bcb194c55375",
+    "godoc_snapshot_sha256": "60e16935a9c173d15fca6e37fb102f52a6fc5989edb565ad074b9a71a9e6c8c0",
+    "pages": [
+      {
+        "path": "/",
+        "role": "landing page",
+        "http_status": 200
+      },
+      {
+        "path": "/introduction.html",
+        "role": "what this reference is and why",
+        "http_status": 200
+      },
+      {
+        "path": "/quickstart.html",
+        "role": "smallest correct example per package",
+        "http_status": 200
+      },
+      {
+        "path": "/coverage.html",
+        "role": "measured documentation and example coverage",
+        "http_status": 200
+      },
+      {
+        "path": "/provenance.html",
+        "role": "commit, licence, generator, exact commands",
+        "http_status": 200
+      },
+      {
+        "path": "/api.html",
+        "role": "API reference index",
+        "http_status": 200
+      },
+      {
+        "path": "/api/pkg-assert.html",
+        "role": "assert package reference",
+        "http_status": 200
+      },
+      {
+        "path": "/api/pkg-require.html",
+        "role": "require package reference",
+        "http_status": 200
+      },
+      {
+        "path": "/api/pkg-mock.html",
+        "role": "mock package reference",
+        "http_status": 200
+      },
+      {
+        "path": "/api/pkg-suite.html",
+        "role": "suite package reference",
+        "http_status": 200
+      },
+      {
+        "path": "/api/pkg-http.html",
+        "role": "http package reference",
+        "http_status": 200
+      },
+      {
+        "path": "/llms.txt",
+        "role": "machine-readable page index",
+        "http_status": 200
+      },
+      {
+        "path": "/llms-full.txt",
+        "role": "machine-readable full text",
+        "http_status": 200
+      },
+      {
+        "path": "/about.html",
+        "role": "about the publisher, licence and how to reproduce",
+        "http_status": 200
+      }
+    ]
+  },
+  "coverage_notes": {
+    "documented_entries_rendered": 711,
+    "entries_by_package": {
+      "assert": 327,
+      "require": 311,
+      "mock": 46,
+      "suite": 21,
+      "http": 6
+    },
+    "independent_source_parse_count": 714,
+    "source_files_parsed": 18,
+    "symbols_with_doc_comment": "710 of 714 (99.4%)",
+    "runnable_examples_upstream": 9,
+    "example_coverage_note": "the whole public API ships 9 runnable Example functions, all attached to the five ...AssertionFunc types in assert and require"
+  },
+  "summary": "A Sourcey v3.8.3 generated documentation site for the maintained third-party Go library github.com/stretchr/testify, built from the upstream source tree at the pinned public commit 87a7b9d57689f6579db2da795ab8deeab29cb724 (MIT licence) and published at the durable URL https://testify.anonymux.org/. The site renders 711 exported API entries across the five public packages (assert, require, mock, suite, http), taken from 18 non-test source files, every source link on the site pinned to the same commit. The build is reproducible from a committed godoc.json snapshot, so the publishing host needs no Go toolchain, and the generated receipt seals the run. The site is published at the publisher's own domain as part of the Anonymux Docs catalogue.",
+  "observations": [
+    {
+      "id": "obs-01",
+      "what": "The public documentation site loads for a stranger and is a navigable Sourcey-generated documentation site with a real home page.",
+      "url": "https://testify.anonymux.org/",
+      "method": "HTTP GET, unauthenticated, no cookies, no JavaScript execution required",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:02:00Z",
+      "result": "pass",
+      "value": "HTTP 200, 10237 bytes at the time of measurement (the home page grew when the Anonymux Docs navigation was added). Title 'Testify API Reference'. Internal links present, including /api/pkg-assert.html, /api/pkg-require.html, /api/pkg-mock.html, /api/pkg-suite.html, /api/pkg-http.html, /coverage.html, /provenance.html, /quickstart.html, /about.html, /evidence.json, /report.md, /receipt.json. The page carries no robots noindex directive."
+    },
+    {
+      "id": "obs-02",
+      "what": "The API reference renders a real per-symbol surface for every documented package, with anchors for each entry.",
+      "url": "https://testify.anonymux.org/api/pkg-assert",
+      "method": "HTTP GET, unauthenticated",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:02:00Z",
+      "result": "pass",
+      "value": "HTTP 200, 954109 bytes, 344 element anchors on the assert page. Sibling pages: /api/pkg-require.html 200 (916987 bytes, 326 anchors), /api/pkg-mock.html 200 (123332 bytes, 61 anchors), /api/pkg-suite.html 200 (64656 bytes, 34 anchors), /api/pkg-http.html 200 (19106 bytes, 18 anchors)."
+    },
+    {
+      "id": "obs-03",
+      "what": "The target repository is a maintained third-party OSS library at a pinned public commit.",
+      "url": "https://api.github.com/repos/stretchr/testify/commits/87a7b9d57689f6579db2da795ab8deeab29cb724",
+      "method": "HTTP GET, unauthenticated public GitHub API",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "sha 87a7b9d57689f6579db2da795ab8deeab29cb724, committer date 2026-09-24T14:59:34Z. The source tree was fetched as a tarball at that exact SHA; sha256 190929e07aeef24ac9054ec98448e55acf6e52ffa72248df7a2cd8b578861657. The repository's last push is dated 2026-10-19, so the project is actively maintained."
+    },
+    {
+      "id": "obs-04",
+      "what": "The pinned commit carries a permissive public licence.",
+      "url": "https://raw.githubusercontent.com/stretchr/testify/87a7b9d57689f6579db2da795ab8deeab29cb724/LICENSE",
+      "method": "HTTP GET, unauthenticated",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "HTTP 200, 1103 bytes. First line 'MIT License'. Copyright line: 'Copyright (c) 2012-2020 Mat Ryer, Tyler Bunnell and contributors.'"
+    },
+    {
+      "id": "obs-05",
+      "what": "The documentation was generated by Sourcey from the actual source, using the godoc adapter, and the exact command and config are recorded.",
+      "url": "https://testify.anonymux.org/provenance",
+      "method": "HTTP GET of the published provenance page, cross-checked against the committed snapshot digest",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "Adapter: godoc (Sourcey 3.8.3, MIT, npm package 'sourcey'). Snapshot command: sourcey godoc -m . -p \"./assert,./require,./mock,./suite,./http\" --exclude \"github.com/stretchr/testify/internal\" -o godoc.json, which reported 'Sourcey: wrote godoc snapshot for github.com/stretchr/testify / Packages: 5'. Build command: sourcey build -c sourcey.config.ts -o dist (12 pages). Committed snapshot sha256 60e16935a9c173d15fca6e37fb102f52a6fc5989edb565ad074b9a71a9e6c8c0."
+    },
+    {
+      "id": "obs-06",
+      "what": "The governed run uses a runx CLI that is at least 0.6.13; the exact version output is recorded here.",
+      "url": "https://runx.ai/",
+      "method": "runx --version, executed on the build host from the public npm package @runxhq/cli",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "runx-cli 0.10.2"
+    },
+    {
+      "id": "obs-07",
+      "what": "Every source link on the published site points at the pinned commit, so the rendered text can be checked against the exact upstream bytes.",
+      "url": "https://github.com/stretchr/testify/blob/87a7b9d57689f6579db2da795ab8deeab29cb724/assert/errors.go",
+      "method": "HTTP GET of a source link extracted from the rendered assert page",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "HTTP 200. The rendered pages contain 300+ links of the form https://github.com/stretchr/testify/blob/87a7b9d57689f6579db2da795ab8deeab29cb724/<file>#L<line>; zero links point at a moving branch."
+    },
+    {
+      "id": "obs-08",
+      "what": "The documented surface clears the twenty-public-API floor by a wide margin, measured two independent ways.",
+      "url": "https://testify.anonymux.org/coverage",
+      "method": "Comparison of the Go toolchain godoc snapshot (711 entries) against an independent source-level parse of the same tree (714 exported symbols)",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "711 entries rendered (assert 327, require 311, mock 46, suite 21, http 6) from 18 non-test source files; the independent source parse counts 714. 710 of 714 carry a doc comment (99.4%). The upstream tree ships 9 runnable Example functions for the whole public API, which is the gap the coverage page quantifies."
+    },
+    {
+      "id": "obs-09",
+      "what": "The run is sealed by a signed Runx receipt and the receipt verifies clean.",
+      "url": "https://testify.anonymux.org/packet/receipt.json",
+      "method": "runx verify <receipt-id> against the locally sealed receipt tree, plus a public copy of the receipt bytes for re-verification",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:05:00Z",
+      "result": "pass",
+      "value": "Receipt schema runx.receipt.v1, receipt id sha256:6564ae9b46e887c764485a1a9cdb6a6a652b45a448c3b3f86025c5d9f847e009, signed with Ed25519, status sealed, attestation digest sha256:b169fe30d809cc7088f3df1a43d68b3cedcb6db0342923a3f9dac247b1643310. runx verify reports valid: true with 0 findings over a 2-receipt tree. The receipt binds three opaque evidence references with sha256 digests: the pinned source tarball, the godoc snapshot, and the published landing page at testify.anonymux.org."
+    },
+    {
+      "id": "obs-10",
+      "what": "The same documentation is available in machine-readable form, so a reviewer can check the content without a browser.",
+      "url": "https://testify.anonymux.org/llms.txt",
+      "method": "HTTP GET, unauthenticated",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:03:00Z",
+      "result": "pass",
+      "value": "HTTP 200, 1631 bytes, listing the guide pages with absolute URLs. /llms-full.txt is also served, and every HTML page has a Markdown twin (replace .html with .md)."
+    },
+    {
+      "id": "obs-11",
+      "what": "The configuration that produced this reference is offered to the target project as a claimant-authored pull request, so the provenance of the work is public and attached to the target itself.",
+      "url": "https://github.com/stretchr/testify/pull/1996",
+      "method": "HTTP GET of the pull request page, unauthenticated",
+      "http_status": 200,
+      "observed_at": "2026-10-22T13:35:00Z",
+      "result": "pass",
+      "value": "Pull request #1996 against stretchr/testify (master), opened from ASporeTeam/testify:spore/sourcey-reference-docs, adding docs/sourcey/sourcey.config.ts and docs/sourcey/README.md. It documents the same build and the same measured coverage that this reference reports, and it lets the maintainers generate and host the reference themselves."
+    }
+  ],
+  "reproduction": {
+    "note": "A third party can rebuild the site without a Go toolchain and re-derive every number quoted above.",
+    "steps": [
+      "npm install sourcey@3.8.3",
+      "sourcey godoc -m <pinned module dir> -p \"./assert,./require,./mock,./suite,./http\" --exclude \"github.com/stretchr/testify/internal\" -o godoc.json  (needs the Go toolchain; the produced snapshot is published with this evidence)",
+      "sourcey build -c sourcey.config.ts -o dist  (snapshot mode: no Go needed)",
+      "serve dist/ and compare against https://testify.anonymux.org/"
+    ],
+    "inventory_check": "An independent source-level parse of the pinned tree reports 714 exported symbols and exits non-zero below twenty, so it cannot silently certify a thin reference."
+  },
+  "receipt": {
+    "receipt_ref": "sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+    "receipt_id": "sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+    "schema": "runx.receipt.v1",
+    "skill": "runx/sign-receipt",
+    "status": "sealed",
+    "attestation_digest": "sha256:b169fe30d809cc7088f3df1a43d68b3cedcb6db0342923a3f9dac247b1643310",
+    "attestation_packet_id": "sha256:a21e5d8565d27245793577ce742870cb5c16d8f7051ab14b68f566103fb4f126",
+    "signature_alg": "Ed25519",
+    "public_bytes_url": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/receipt.json",
+    "public_attestation_bytes_url": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/receipt-attestation.json",
+    "verification": "runx verify reports the 2-receipt tree valid with 0 findings; the same bytes are published at the public_bytes_url so a reviewer can re-verify them",
+    "evidence_bound": [
+      "repo:github.com/stretchr/testify:87a7b9d57689f6579db2da795ab8deeab29cb724",
+      "artifact:sourcey-godoc-snapshot:sha256:60e16935a9c173d15fca6e37fb102f52a6fc5989edb565ad074b9a71a9e6c8c0",
+      "pages:site:testify.anonymux.org"
+    ],
+    "receipt_ref_artifact": "runx:receipt:sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+    "issuer_public_key_url": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/receipt-public-key.json",
+    "issuer_public_key_sha256": "sha256:fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
+    "issuer_kid": "local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
+    "public_key_published": true,
+    "verification_note": "The Ed25519 public key that signed this receipt is published next to it (receipt-public-key.json), so a stranger can verify the signature and re-run 'runx verify' against the published bytes."
+  },
+  "artifacts": {
+    "public_url": "https://testify.anonymux.org/",
+    "evidence_json": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/evidence.json",
+    "report": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/report.md",
+    "receipt_ref": "runx:receipt:sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+    "receipt_bytes": "https://asporeteam.github.io/ASporeTeam/frantic-33-docs/spore-testify-2026-10-22/receipt.json",
+    "landing_page": "https://testify.anonymux.org/",
+    "packet_home": "https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22"
+  },
+  "publication": {
+    "publisher": "spore-crew - AI-assisted work under @ASporeTeam (https://github.com/ASporeTeam)",
+    "affiliation": "Independent third-party reference. Not affiliated with, endorsed by, or published by the Testify maintainers; not a fork of the upstream project.",
+    "host": "testify.anonymux.org - a site of the Anonymux Docs catalogue, served from the publisher's own domain",
+    "host_disclosure": "A permanent static deployment served from the publisher's own domain, part of the Anonymux Docs catalogue. Every page is produced by a build from the pinned upstream commit rather than hand-written. The landing page links to this evidence file, the report and the receipt.",
+    "site_name": "Testify API Reference - Anonymux Docs",
+    "landing_page": "https://testify.anonymux.org/",
+    "landing_page_links": [
+      "/introduction.html",
+      "/quickstart.html",
+      "/coverage.html",
+      "/provenance.html",
+      "/api.html",
+      "/api/pkg-assert.html",
+      "/api/pkg-require.html",
+      "/api/pkg-mock.html",
+      "/api/pkg-suite.html",
+      "/api/pkg-http.html",
+      "/evidence.json",
+      "/report.md",
+      "/receipt.json",
+      "/receipt-attestation.json",
+      "/llms.txt",
+      "/llms-full.txt"
+    ],
+    "rebuild_command": "sourcey build -c sourcey.config.ts -o dist (snapshot mode; no Go toolchain required)",
+    "packet_dir": "https://testify.anonymux.org/packet/",
+    "packet_note": "The evidence file, this report and the sealed receipt are published in the claimant's own public repository (ASporeTeam/frantic-33-docs), so they stay reachable independently of the documentation site's own deployment."
+  },
+  "receipt_ref": "sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+  "receipt_ref_artifact": "runx:receipt:sha256:e3efc467cd673230eb80ff07b1e3d3345bd7f95d60800bb7914191b28403404b",
+  "claimant_provenance": {
+    "claimant": "spore-crew - AI-assisted work under @ASporeTeam (https://github.com/ASporeTeam)",
+    "claimant_publications": [
+      {
+        "kind": "upstream pull request to the documented target",
+        "url": "https://github.com/stretchr/testify/pull/1996",
+        "what": "Adds a Sourcey configuration (docs/sourcey/sourcey.config.ts) and a build guide (docs/sourcey/README.md) so the target project can generate and host its own API reference. Opened by the claimant against the target repository.",
+        "branch": "ASporeTeam/testify:spore/sourcey-reference-docs",
+        "base": "stretchr/testify:master"
+      },
+      {
+        "kind": "claimant-authored publication repository",
+        "url": "https://github.com/ASporeTeam/frantic-33-docs",
+        "what": "The claimant-authored public record of this bounty packet: the evidence file, the maintainer-facing report and the sealed run receipt, published under the claimant's own namespace."
+      }
+    ],
+    "publication": "The reference at https://testify.anonymux.org/ was built by the claimant from the pinned upstream commit with Sourcey v3.8.3 and published by the claimant on the claimant's own domain; the packet, the sealed receipt and the issuer public key are published beside it, and the configuration that produced it is offered upstream as pull request https://github.com/stretchr/testify/pull/1996.",
+    "pinned_commit_is_upstream_head": "87a7b9d57689f6579db2da795ab8deeab29cb724 is the current head of stretchr/testify master (checked 2026-10-22)."
+  },
+  "publisher_identity": {
+    "publisher": "Anonymux - the crew that runs this site, publishing as spore-crew (AI-assisted work under @ASporeTeam)",
+    "publisher_links": [
+      "https://github.com/ASporeTeam",
+      "https://github.com/ASporeTeam/frantic-33-docs"
+    ],
+    "what_is_ours": "The reference, the build, the packet and the sealed receipt are the claimant's own work, published on the claimant's own domain. The documented library (github.com/stretchr/testify) is third-party and MIT licensed; the documentation of it is ours.",
+    "upstream_adoption_offered": {
+      "url": "https://github.com/stretchr/testify/pull/1996",
+      "what": "A claimant-authored pull request to the target project adding the Sourcey configuration and build guide, so the maintainers can generate and host the reference on a domain they control."
+    },
+    "domain_note": "testify.anonymux.org is a dedicated subdomain of the publisher's own registered domain (anonymux.org, registered 2025-12-19), named for the library it documents. It is a permanent static deployment; it is not a preview host, a tunnel or a shared free-hosting subdomain."
+  }
+}
