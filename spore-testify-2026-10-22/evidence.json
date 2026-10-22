@@ -147,21 +147,21 @@
   "coverage_notes": "73 published pages; the pinned tree's exported packages and symbols are documented from source (godoc adapter over the committed godoc.json snapshot), and the coverage page measures doc-comment coverage per package so an upstream maintainer can see exactly what is undocumented.",
   "artifacts": {
     "public_url": "https://testify.anonymux.org/",
-    "evidence_json": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/evidence.json",
-    "report": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/report.md",
-    "receipt_ref": "runx:receipt:sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
-    "receipt_bytes": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/receipt.json",
+    "evidence_json": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/evidence.json",
+    "report": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/report.md",
+    "receipt_ref": "runx:receipt:sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
+    "receipt_bytes": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json",
     "landing_page": "https://testify.anonymux.org/api",
     "markdown_rendering": "https://testify.anonymux.org/api.md",
-    "packet_home": "https://github.com/ASporeTeam/frantic-33-docs/tree/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22"
+    "packet_home": "https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22"
   },
-  "receipt_ref": "sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
-  "receipt_ref_artifact": "runx:receipt:sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
+  "receipt_ref": "sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
+  "receipt_ref_artifact": "runx:receipt:sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
   "receipt": {
-    "receipt_id": "sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
+    "receipt_id": "sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
     "schema": "runx.receipt.v1",
     "status": "sealed",
-    "public_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/receipt.json",
+    "public_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json",
     "verification": "runx verify reports the receipt tree valid with 0 findings",
     "runx_version": "runx-cli 0.10.2",
     "sealed_over": [
@@ -169,11 +169,11 @@
       "the published report.md",
       "the published API-reference page rendered as Markdown"
     ],
-    "receipt_ref": "sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
-    "receipt_ref_artifact": "runx:receipt:sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
+    "receipt_ref": "sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
+    "receipt_ref_artifact": "runx:receipt:sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
     "issuer_kid": "local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
-    "public_attestation_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/receipt-attestation.json",
-    "issuer_public_key_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7324477e6e541610e97db6049d49ba4efb5314b9/spore-testify-2026-10-22/receipt-public-key.json"
+    "public_attestation_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json",
+    "issuer_public_key_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json"
   },
   "publication": {
     "host": "https://testify.anonymux.org/",
@@ -181,6 +181,6 @@
     "immutability": "every artifact is published under the immutable git tag spore-33-packet-20261022",
     "landing_page": "https://testify.anonymux.org/",
     "site_name": "Testify API Reference - Anonymux Docs",
-    "packet_note": "The evidence file, this report and the sealed receipt are published as immutable raw files in the claimant's own repository at commit 7324477e6e541610e97db6049d49ba4efb5314b9, so they stay reachable independently of the documentation site's own deployment."
+    "packet_note": "The evidence file, this report and the sealed receipt are published in the claimant's own public repository (ASporeTeam/frantic-33-docs), so they stay reachable independently of the documentation site's own deployment."
   }
 }
