@@ -40,3 +40,11 @@ library [stretchr/testify](https://github.com/stretchr/testify), pinned to commi
 - **Receipt:** the governed run was executed with the runx CLI (runx-cli 0.10.2) and sealed into a
   signed receipt; the receipt id is `receipt_ref` in the published evidence file and the
   receipt bytes are published at `https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/spore-33-packet-20261022/spore-testify-2026-10-22/receipt.json`, so a reviewer can re-run `runx verify` against them.
+
+### The packet itself
+
+- evidence file: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/evidence.json
+- report: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/report.md
+- sealed receipt: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json (attestation packet: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json)
+- issuer public key: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json
+- packet repository: https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22
