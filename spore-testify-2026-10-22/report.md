@@ -221,3 +221,11 @@ Stated plainly, because a reader should be able to judge who published this and 
 - sealed receipt: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json (attestation packet: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json)
 - issuer public key: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json
 - packet repository: https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22
+
+### The packet itself
+
+- evidence file: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/evidence.json
+- report: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/report.md
+- sealed receipt: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json (attestation packet: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json)
+- issuer public key: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json
+- packet repository: https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22
