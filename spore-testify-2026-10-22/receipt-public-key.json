@@ -1,0 +1,9 @@
+{
+  "schema": "runx.receipt_public_key.v1",
+  "algorithm": "Ed25519",
+  "kid": "local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
+  "public_key_base64": "659RFipgpos2OIBShZEV8ZZUJ8KTnIb/+91jFdfFf4o=",
+  "public_key_sha256": "sha256:fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
+  "how_to_verify": "Verify the Ed25519 signature of receipt.json with this public key, then re-check the receipt tree with the runx CLI (runx verify <receipt-id>). The receipt payload is canonically signed: any change to the bytes changes the signature.",
+  "note": "The signing seed is NOT published. Only the public verification key is."
+}
