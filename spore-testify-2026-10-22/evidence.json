@@ -276,6 +276,7 @@
     "public_url": "https://testify.anonymux.org/",
     "evidence_json": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/9af1e0e112c8d03a175c8207903b1e6027c9909e/spore-testify-2026-10-22/evidence.json",
     "report": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/9af1e0e112c8d03a175c8207903b1e6027c9909e/spore-testify-2026-10-22/report.md",
+    "receipt": "sha256:af81540f298fa064560615d6e969a22614780f40e45858644e6bee23b743c071",
     "receipt_ref": "runx:receipt:sha256:af81540f298fa064560615d6e969a22614780f40e45858644e6bee23b743c071",
     "receipt_bytes": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/9af1e0e112c8d03a175c8207903b1e6027c9909e/spore-testify-2026-10-22/receipt.json",
     "landing_page": "https://testify.anonymux.org/",
