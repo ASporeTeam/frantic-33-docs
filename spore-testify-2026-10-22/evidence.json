@@ -257,8 +257,8 @@
     "attestation_digest": "sha256:b169fe30d809cc7088f3df1a43d68b3cedcb6db0342923a3f9dac247b1643310",
     "attestation_packet_id": "sha256:a21e5d8565d27245793577ce742870cb5c16d8f7051ab14b68f566103fb4f126",
     "signature_alg": "Ed25519",
-    "public_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json",
-    "public_attestation_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json",
+    "public_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/receipt.json",
+    "public_attestation_bytes_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/receipt-attestation.json",
     "verification": "runx verify reports the 2-receipt tree valid with 0 findings; the same bytes are published at the public_bytes_url so a reviewer can re-verify them",
     "evidence_bound": [
       "repo:github.com/stretchr/testify:87a7b9d57689f6579db2da795ab8deeab29cb724",
@@ -266,7 +266,7 @@
       "pages:site:testify.anonymux.org"
     ],
     "receipt_ref_artifact": "runx:receipt:sha256:3db4558c6ee4bf70270269ba079caec4b2eb1d4fdfc5fb79c1d33387c735d2cd",
-    "issuer_public_key_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json",
+    "issuer_public_key_url": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/receipt-public-key.json",
     "issuer_public_key_sha256": "sha256:fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
     "issuer_kid": "local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
     "public_key_published": true,
@@ -274,12 +274,12 @@
   },
   "artifacts": {
     "public_url": "https://testify.anonymux.org/",
-    "evidence_json": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/evidence.json",
-    "report": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/report.md",
+    "evidence_json": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/evidence.json",
+    "report": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/report.md",
     "receipt_ref": "runx:receipt:sha256:3db4558c6ee4bf70270269ba079caec4b2eb1d4fdfc5fb79c1d33387c735d2cd",
-    "receipt_bytes": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json",
+    "receipt_bytes": "https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22/receipt.json",
     "landing_page": "https://testify.anonymux.org/",
-    "packet_home": "https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22"
+    "packet_home": "https://github.com/ASporeTeam/frantic-33-docs/tree/7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1/spore-testify-2026-10-22"
   },
   "publication": {
     "publisher": "spore-crew - AI-assisted work under @ASporeTeam (https://github.com/ASporeTeam)",
@@ -308,7 +308,7 @@
     ],
     "rebuild_command": "sourcey build -c sourcey.config.ts -o dist (snapshot mode; no Go toolchain required)",
     "packet_dir": "https://testify.anonymux.org/packet/",
-    "packet_note": "The evidence file, this report and the sealed receipt are published in the claimant's own public repository (ASporeTeam/frantic-33-docs), so they stay reachable independently of the documentation site's own deployment."
+    "packet_note": "The evidence file, this report and the sealed receipt are published as immutable raw files in the claimant's own repository at commit 7b8b5c9a6017aaeef239ffadfcffcdf63e7d17a1, so they stay reachable independently of the documentation site's own deployment."
   },
   "receipt_ref": "sha256:3db4558c6ee4bf70270269ba079caec4b2eb1d4fdfc5fb79c1d33387c735d2cd",
   "receipt_ref_artifact": "runx:receipt:sha256:3db4558c6ee4bf70270269ba079caec4b2eb1d4fdfc5fb79c1d33387c735d2cd",
