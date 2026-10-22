@@ -48,3 +48,16 @@ library [stretchr/testify](https://github.com/stretchr/testify), pinned to commi
 - sealed receipt: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json (attestation packet: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json)
 - issuer public key: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json
 - packet repository: https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22
+
+### The sealed run
+
+- The generation run is sealed in a signed Runx receipt: `runx:receipt:sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e`
+- The receipt bytes, its attestation packet and the issuer public key are published beside this report, so a stranger can verify the signature and re-run `runx verify`.
+
+### The packet itself
+
+- evidence file: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/evidence.json
+- report: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/report.md
+- sealed receipt: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt.json (attestation packet: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-attestation.json)
+- issuer public key: https://raw.githubusercontent.com/ASporeTeam/frantic-33-docs/main/spore-testify-2026-10-22/receipt-public-key.json
+- packet repository: https://github.com/ASporeTeam/frantic-33-docs/tree/main/spore-testify-2026-10-22
