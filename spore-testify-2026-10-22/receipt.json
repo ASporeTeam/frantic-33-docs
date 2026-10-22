@@ -1,1 +1,47 @@
-{"schema":"runx.receipt.v1","id":"sha256:f4d4d3855ab8d91db29cc1220e2a359e9f722dcdc583a7b661149839402a7b32","created_at":"2026-10-22T14:54:22.502Z","canonicalization":"runx.receipt.c14n.v1","issuer":{"type":"local","kid":"local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260","public_key_sha256":"sha256:fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260"},"signature":{"alg":"Ed25519","value":"base64:WZDzmVsVdHim71wjxwyu5EGNdjoXslX4psjLMP6JPcSihWHAiFXFbokadyke1KrZOHDwWPVZ5Vr2njOCHMkyDw"},"digest":"sha256:9c8441f89a42951d46d1c1015b9d08518252c856d33e6030ef59a5511adb287e","subject":{"kind":"graph","ref":{"type":"run","uri":"runx:run:run_sign-receipt_01a1641b2314c1fa747b7293","label":"sign-receipt"},"outcome":"sha256:5f04960bc8d9b527de735eb20a6925a7369e71a4586669813e33d76815c5081e"},"authority":{"grant_refs":[],"scope_refs":[],"terms":[],"derivations":[],"enforcement":{}},"decisions":[],"acts":[],"seal":{"disposition":"closed","criteria":[]},"lineage":{"children":[{"type":"receipt","uri":"runx:receipt:sha256:1501d799e421fd09200e40f5d0fa3a3b4b3d169802b5a23d97e5d3fcc0fee1ed","locator":"sha256:a40c6b6963cad25c1751bf51f0605b1f35140a38e12118779ed08e76ba69846c"}]}}
+{
+  "schema": "runx.receipt.v1",
+  "id": "sha256:31a05d2e973b4d5679e7c594efd9fadc89f01ed87fe1fada3e5d3fbf36cbab2e",
+  "created_at": "2026-10-22T15:01:47.100Z",
+  "canonicalization": "runx.receipt.c14n.v1",
+  "issuer": {
+    "type": "local",
+    "kid": "local-fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260",
+    "public_key_sha256": "sha256:fbbd68ba07cb360c5a8b454662d5526cd869872f0943dc697a05ae2bf8035260"
+  },
+  "signature": {
+    "alg": "Ed25519",
+    "value": "base64:XPo4ECn1vbfmMZsYCdCw2ThY9lu6Sr3Pu8F1xJ6IeRrT3Q6X0a6B-QidF8PrT-5yM195lNmP8Px2TlhhhRcQCA"
+  },
+  "digest": "sha256:c26fdc8a25f7217ff87c2c568fa9d9f5dd39683aefef3329d0a353b463961d5f",
+  "subject": {
+    "kind": "graph",
+    "ref": {
+      "type": "run",
+      "uri": "runx:run:run_sign-receipt_01a16421ebcc041a27599b66",
+      "label": "sign-receipt"
+    },
+    "outcome": "sha256:40d9fdbea81a4369977405c380030eff8d757089e50dca58f67cb6f1f80abd7a"
+  },
+  "authority": {
+    "grant_refs": [],
+    "scope_refs": [],
+    "terms": [],
+    "derivations": [],
+    "enforcement": {}
+  },
+  "decisions": [],
+  "acts": [],
+  "seal": {
+    "disposition": "closed",
+    "criteria": []
+  },
+  "lineage": {
+    "children": [
+      {
+        "type": "receipt",
+        "uri": "runx:receipt:sha256:7b4d132d193f169b97f8d69006e0d99b48135d4d27787d81926f26937e35375c",
+        "locator": "sha256:9bd4496be1296917f9cb2614fab0a5c8506bdc6a8b1be46a8c3e5b15f69bd22c"
+      }
+    ]
+  }
+}
