@@ -1,7 +1,7 @@
 {
   "schema": "runx.receipt.v1",
-  "id": "sha256:4f0db829e57a5265118905acd7cb997e8f9f721b1e50772f2ecf29450a1ca49e",
-  "created_at": "2026-10-22T15:06:29.112Z",
+  "id": "sha256:af81540f298fa064560615d6e969a22614780f40e45858644e6bee23b743c071",
+  "created_at": "2026-10-22T14:27:08.666Z",
   "canonicalization": "runx.receipt.c14n.v1",
   "issuer": {
     "type": "local",
@@ -10,17 +10,17 @@
   },
   "signature": {
     "alg": "Ed25519",
-    "value": "base64:51mk_Ig9KyPSrbs_G4W3A2ob2LHMEYrKMUTclC9TWHg6Qy-QR5GQGL5r26dEDKfd6B1XL4yKXK1WgcJ3W02ABQ"
+    "value": "base64:RIR_zN2GWZqvwWC1nHfNXD0av9lXNIEeEHTWsYI7TH0qYy24IpDhEw_AlFsD0PA-OW3M2pmKCBotoc2B0JRuCg"
   },
-  "digest": "sha256:23a0373cbb14af820e146f342ee641298f321bd3ea0b4f050c85d0b92c7f1c8e",
+  "digest": "sha256:c8b3925e5090cb59806ab525b5217d56e35615f8bf5b668b6ae0dd0cb6a0767c",
   "subject": {
     "kind": "graph",
     "ref": {
       "type": "run",
-      "uri": "runx:run:run_sign-receipt_01a1642639643e59c60e6dea",
+      "uri": "runx:run:run_sign-receipt_01a1640234f431708eab91af",
       "label": "sign-receipt"
     },
-    "outcome": "sha256:22fbf44c123984b77d9d0dc20acda8805aa7065b3550d58bd62232a4ac173ad3"
+    "outcome": "sha256:373296695365c7a03994e4bc58d736d47d7eb222a91c32512544abf91ee5fed2"
   },
   "authority": {
     "grant_refs": [],
@@ -39,8 +39,8 @@
     "children": [
       {
         "type": "receipt",
-        "uri": "runx:receipt:sha256:31ccd7ffe7a15492bfd46c71c2a0d031ee6eec2201c8ae18644a651f38fa1139",
-        "locator": "sha256:e5d05a4f9458a17fad54eded1b0b591f7bf7d6eb0d0d6fbb50b0dfc213d5cd19"
+        "uri": "runx:receipt:sha256:472a7d3c3932648daa92c051c3b85f55114ac2e17e5c201d6caf1e699280f0f1",
+        "locator": "sha256:152f29bfd3ec0490124a2e395d951d96f861aed4f9b0df0766e57be22b3d047a"
       }
     ]
   }
